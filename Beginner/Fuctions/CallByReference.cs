@@ -18,7 +18,7 @@ namespace CallByReference
             Console.WriteLine("Value before calling the function "+val);  
             
             program.Show(ref val); // Calling Function by passing reference            
-            Console.WriteLine("Value after calling the function " + val);  
+            Console.WriteLine("Value after calling the function " + val);
         }  
     }  
 }
